@@ -1,0 +1,265 @@
+* {
+    margin-top: 0%;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    height: 80px;
+    align-items: center;
+    border-bottom: 0.5px solid #a28f8f2a;
+}
+
+.myntra_home {
+    height: 45px;
+
+
+}
+
+.logo_container {
+    margin-left: 4%;
+}
+
+.action_bar {
+    margin-right: 4%;
+}
+
+.nav-bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+
+
+
+
+}
+
+.nav-bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid #ffff;
+
+
+}
+
+.nav-bar a.men:hover {
+    border-bottom: 4px solid #f54e77;
+}
+
+.nav-bar a.women:hover {
+    border-bottom: 4px solid rgb(222, 103, 186)
+}
+
+.nav-bar a.kids:hover {
+    border-bottom: 4px solid rgba(255, 68, 0, 0.927);
+}
+
+.nav-bar a.home:hover {
+    border-bottom: 4px solid rgb(229, 216, 69)
+}
+
+.nav-bar a.beauty:hover {
+    border-bottom: 4px solid rgb(42, 203, 215)
+}
+
+.nav-bar a.studio:hover {
+    border-bottom: 4px solid #e11c4dd9;
+}
+
+.action_container.action_name:hover {
+    border-bottom: 4px solid #f54e77;
+}
+
+.nav-bar a sup {
+    top: -0.4rem;
+    font-size: 10px;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    color: #ff3f6c;
+}
+
+.search_bar {
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border: none;
+    border: 0 4px 4px 0;
+
+}
+
+.search_input {
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+}
+
+
+.search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3fba;
+    font-weight: 300;
+    border-radius: 3px 0 0 4px;
+
+
+}
+
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+
+
+
+}
+
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0;
+    border-bottom: 5px solid #ffff;
+    text-decoration: none;
+    ;
+
+
+
+}
+
+.action_container a {
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/*this is only main banner img container*/
+.banner_container {
+    margin: 40px 0;
+    ;
+}
+
+.banner_image {
+    background-size: cover;
+    width: 100%;
+
+}
+
+.category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15rem;
+    font-size: 1.8rem;
+    margin: 50px 0 10px 30px;
+    max-height: 5rem;
+    font-weight: 700;
+
+}
+
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.sale_item {
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.footer_container {
+
+    padding: 30px 0px 40px 0px;
+    background: #d3dce481;
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+.footer_column a{
+    display: flex;
+    flex-direction: column;
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+    margin-top: 5px;
+    
+
+}
+.footer_column h3{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 26px;
+}
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 14px;
+}
+.footer_gur{
+    color: #94969f;
+    font-size: small;
+    align-items: center;
+
+}
+.footer_gur span{
+    align-items: center;
+}
+.return{
+
+    color: #94969f;
+    font-size: small;
+    align-items: center;
+
+}
+.foot-logo{
+    align-items: center;
+    border-radius: 10%;
+    margin-left: 45%;
+
+
+    
+
+}
+.foot-logo p{
+color: #94969f;
+
+
+
+}
+
+
